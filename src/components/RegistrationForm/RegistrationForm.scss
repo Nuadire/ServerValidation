@@ -1,0 +1,17 @@
+.form {
+  display: grid;
+  gap: 20px;
+}
+.skills {
+  &-label {
+    margin-right: 10px;
+  }
+  &-container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  &-skill {
+    display: flex;
+  }
+}
